@@ -1,0 +1,81 @@
+.client-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem .5rem;
+}
+
+.purchase-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.client-form-total, 
+.client-form-button {
+  width: 250px;
+  margin: .5rem;
+  align-self: flex-end;
+}
+
+.client-form-total {
+  font-size: 16pt;
+}
+
+.client-form-button {
+  border: 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13pt;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(221, 139, 16);
+}
+
+.client-form-input,
+.client-form-select {
+  margin: 0 .5rem;
+}
+
+.client-form-input {
+  width: 40%;
+}
+
+.client-form-select {
+  min-width: 20%;
+}
+
+@media (max-width: 720px) {
+  .client-form {
+    flex-flow: wrap;
+    justify-content: flex-start;
+  }
+  .client-form-input {
+    width: 47%;
+  }
+  .client-form-select {
+    width: 35%;
+  }
+  .client-form-input,
+  .client-form-select {
+    margin: 0.75rem 0.25rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .client-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .client-form-input,
+  .client-form-select {
+    width: 100%;
+    margin: .75rem .25rem;
+  }
+}

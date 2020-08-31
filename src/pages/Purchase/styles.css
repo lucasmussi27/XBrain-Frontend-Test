@@ -1,0 +1,25 @@
+.purchase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+}
+
+.purchase-container p strong {
+  color: rgb(14, 150, 230);
+  font-weight: 700;
+}
+
+.new-purchase-button {
+  border: 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13pt;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(221, 139, 16);
+}
