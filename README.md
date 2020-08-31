@@ -1,6 +1,6 @@
 # XBrain-Frontend-Test
 
-## Author Lucas A. Mussi / Nirvana Hacker
+## Author Lucas Mussi / Nirvana Hacker
 
 # Teste para vaga Front-End
 
